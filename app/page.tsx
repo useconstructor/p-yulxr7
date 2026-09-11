@@ -126,49 +126,22 @@ export default function Home() {
 
   const pricingTiers = [
     {
-      name: "Starter",
-      price: "$19",
+      name: "StreamFlow",
+      price: "$199",
       period: "/month",
-      description: "Perfect for individual creators getting started",
-      features: [
-        "25 custom automations",
-        "100 pre built templates",
-        "Email support",
-        "Basic AI suggestions",
-      ],
-      cta: "Start Free Trial",
-      highlighted: false,
-    },
-    {
-      name: "Pro",
-      price: "$59",
-      period: "/month",
-      description: "For power users who want the full experience",
+      description: "Full access to all features for creators and teams",
       features: [
         "Unlimited automations",
-        "2,000+ templates",
+        "2,400+ pre built templates",
         "Priority chat support",
         "Advanced AI context learning",
         "Voice control",
-        "Team sharing (up to 5 users)",
+        "Team sharing",
+        "Multi app integration",
+        "Real time analytics",
       ],
       cta: "Start Free Trial",
       highlighted: true,
-    },
-    {
-      name: "Enterprise",
-      price: "Custom",
-      period: "",
-      description: "For teams and organizations with advanced needs",
-      features: [
-        "Dedicated account manager",
-        "White label options",
-        "On premise deployment",
-        "Custom integrations",
-        "24/7 phone support",
-      ],
-      cta: "Contact Sales",
-      highlighted: false,
     },
   ]
 
