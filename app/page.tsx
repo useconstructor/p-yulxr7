@@ -127,8 +127,8 @@ export default function Home() {
   const pricingTiers = [
     {
       name: "StreamFlow",
-      price: "$199",
-      period: "/month",
+      price: "Only $199 USD",
+      period: " monthly",
       description: "Full access to all features for creators and teams",
       features: [
         "Unlimited automations",
